@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TUS DATOS</title>
+</head>
+<body>
+    <header>
+        <h1>TUS DATOS</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="estrellas.html">Estrellas</a></li>
+            <li><a href="contelaciones.html">Constelación</a></li>
+            <li><a href="formulario.html">Datos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- TABLAS (TH, TR, TD)-->
+
+        <form action="">
+            <h3>LLENA TUS DATOS</h3>
+            <p> Nombre: <input type="text" size="40" placeholder="Escriba su nombre en mayúscula"> </p>
+            <p> Sexo:   <input type="radio" name="sexo" value="1" required> Hombre
+                        <input type="radio" name="sexo" value="2" > Mujer
+                        <input type="radio" name="sexo" value="3"> Prefiero no decirlo       </p>
+            <p> DNI:
+                        <input type="text" name="" id="dni" maxlength="8" minlength="5">   </p>
+            <p>
+                Contraseña: <input type="password" minlength="5">  </p>
+            <p>
+                Peso <input type="number" name="" id="peso" min="18" max="25">
+            </p>
+            <p> Fecha de nacimiento <input type="date" name="" id="">
+            </p>
+            <p>
+                Hora <input type="time" name="" id="">
+            </p>
+            <p>
+                Elige tu color favorito: <br>
+                <input type="checkbox" name="" id="">Rojo
+                <input type="checkbox" name="" id="">azul
+            </p>
+            <p>
+                Elija su color favorito <input type="color">
+            </p>
+            <p>
+                Te gustó la atención brindada <input type="range" name="" id="" min="1" max="11" step="2" list="lista-rango">
+                <!-- <datalist id="lista-rango">
+                    <option value="1" label="Malo">
+                    <option value="2" label="Regular">
+                    <option value="3" label="Bueno">
+                    </datalist> -->
+            </p>
+            <p>Escriba su comentario
+                <br>
+                <textarea name="texto" id="" cols="30" rows="3"></textarea>
+            </p>
+
+
+            <p> <button type="submit">
+                    <img src="https://cdn-icons-png.flaticon.com/128/6992/6992732.png" alt="" width="20" height="20"> ENVIAR
+                </button>
+
+                <input type="reset" value="Borrar">
+
+            </p>
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+
+CSS
+
